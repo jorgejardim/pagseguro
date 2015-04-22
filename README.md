@@ -12,7 +12,7 @@ require: "jorge/pagseguro": "dev-master"
 ## Configuração
 
 ```
-$this->loadComponent('Pagseguro.Pagseguro');```
+$this->loadComponent('Pagseguro.Pagseguro');
 ```
 
 ## Exemplo
