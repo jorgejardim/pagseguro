@@ -1,0 +1,22 @@
+{
+    "name": "jorge/pagseguro",
+    "description": "PagSeguro Component para Cake 3.x (Adaptação da classe de André Cavallari)",
+    "keywords": ["cakephp","pagseguro"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jorge Jardim",
+            "email": "jorge@jorgejardim.com.br",
+            "homepage": "http://www.jorgejardim.com.br/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "pagseguro/php": "dev-master"
+    },
+    "autoload":{
+        "psr-4":{
+            "Pagseguro\\":"src"
+        }
+    }
+}
