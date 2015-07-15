@@ -25,6 +25,10 @@ class PagseguroComponent extends Component {
         $this->request_pg->addItem($id,$descricao,$quantidade,$custo,$peso,$custo_envio);
     }
 
+    public function setExtraAmount($amount){
+        $this->request_pg->setExtraAmount($amount);
+    }
+
     public function setReference($reference){
         $this->request_pg->setReference($reference);
     }
